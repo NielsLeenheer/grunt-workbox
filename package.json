@@ -1,0 +1,44 @@
+{
+  "name": "grunt-workbox",
+  "description": "Grunt plugin for integrating Workbox",
+  "version": "1.0.0",
+  "homepage": "https://github.com/NielsLeenheer/grunt-workbox",
+  "author": {
+    "name": "Niels Leenheer",
+    "email": "info@html5test.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/NielsLeenheer/grunt-workbox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NielsLeenheer/grunt-workbox/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/NielsLeenheer/grunt-workbox/blob/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": "*"
+  },
+  "main": "Gruntfile.js",
+  "scripts": {
+    "lint": "eslint --fix tasks/*.js"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "workbox-build": "^6.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "eslint-config-google": "^0.9.1"
+  }
+}
