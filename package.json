@@ -1,7 +1,7 @@
 {
   "name": "grunt-workbox",
   "description": "Grunt plugin for integrating Workbox",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/NielsLeenheer/grunt-workbox",
   "author": {
     "name": "Niels Leenheer",
@@ -34,7 +34,7 @@
     "gruntplugin"
   ],
   "dependencies": {
-    "chalk": "^5.0.0",
+    "chalk": "^4.1.2",
     "workbox-build": "^6.4.2"
   },
   "devDependencies": {
