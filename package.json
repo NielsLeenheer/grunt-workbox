@@ -1,7 +1,7 @@
 {
   "name": "grunt-workbox",
   "description": "Grunt plugin for integrating Workbox",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homepage": "https://github.com/NielsLeenheer/grunt-workbox",
   "author": {
     "name": "Niels Leenheer",
@@ -28,7 +28,7 @@
     "lint": "eslint --fix tasks/*.js"
   },
   "peerDependencies": {
-    "grunt": "~1.3.0"
+    "grunt": "*"
   },
   "keywords": [
     "gruntplugin"
